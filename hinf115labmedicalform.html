@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Schizophrenia Symptom Form</title>
+        <style>
+            demographic, demoq, medical, mediq, footer, footq {margin-bottom: 12px; display: block;}
+            .followup {float: right; display: block;}
+
+            .blockcentre {margin: 0 auto; display: block;}
+            .textcenter {text-align: center;}
+            .textright {text-align: right;}
+
+            .quarter{width: 25%; float: left;}
+            .half {width: 50%; float: left;}
+
+            input[type=text], input[type=date] {width: 200px; margin-bottom: 5px;}
+
+            body {
+                background-color: rgb(191, 206, 231);
+                border: 10px solid rgb(6, 6, 110);
+            }
+
+            legend {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+                font-style: italic;
+                color: rgb(6, 6, 110);
+                background-color: aliceblue;
+            }
+
+            h1 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: rgb(6, 6, 110);
+                font-style: italic;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            #submit {
+                text-align: center;
+                font-size: 30px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+        </style>
+    <meta charset="utf-8" />
+    </head>
+   
+    <body>
+        <header>
+            <h1>Schizophrenia Symptom Form</h1>
+        </header> 
+   
+        <form class="SymptomForm" action="https://formsubmit.co//melodyhung2022@yahoo.com"method="POST" id="Form">
+        <demographic>
+            <fieldset><legend> Personalia </legend>
+                <demoq>
+                    <label for="name">Name: </label><input id="name" type="text" value=""/>
+                </demoq>
+                <demoq>
+                    <label for="age">Age: </label><input id="age" type="number" value="0"/>
+                </demoq>
+                <demoq>
+                    <label for="occupation">Occupation: </label><input id="occupation" type="text" value=""/>
+                </demoq>
+                <demoq>
+                    <label for="birthplace">Born In: </label><input id="birthplace" type="text" value=""/>
+                </demoq>
+                <demoq>
+                    <label for="date">Date: </label><input id="date" type="text" value=""/>
+                </demoq>        
+            </fieldset>
+        </demographic>
+
+        <medical>
+            <fieldset><legend> Questions </legend>
+                <br />
+                <mediq> 
+                    <div>
+                    <span>1. Are you experiencing hallucinations? If so, please select a severity from 1-5.
+                        <br />
+                        <input type="radio" id="q1n" value="Not Severe" name="symptom1" /> <label>Not severe</label>
+                        <input type="radio" id="q1a" value="Slightly severe" name="symptom1"/> <label>Slightly severe</label>
+                        <input type="radio" id="q1m" value="Moderately Severe" name="symptom1"/> <label>Moderately severe</label>
+                        <input type="radio" id="q1s" value="Severe" name="symptom1"/> <label>Severe</label>
+                        <input type="radio" id="q1v" value="Extremely severe" name="symptom1"/> <label>Extremely severe</label>
+                    </span>
+                    </div>
+
+                    <br />
+                    <div>
+                    <span>2. Have you been feeling over-agitated recently? If so, please select a severity from 1-5.
+                        <br />
+                        <input type="radio" id="q1n" value="Not Severe" name="symptom2" /> <label>Not severe</label>
+                        <input type="radio" id="q1a" value="Slightly severe" name="symptom2"/> <label>Slightly severe</label>
+                        <input type="radio" id="q1m" value="Moderately Severe" name="symptom2"/> <label>Moderately severe</label>
+                        <input type="radio" id="q1s" value="Severe" name="symptom2"/> <label>Severe</label>
+                        <input type="radio" id="q1v" value="Extremely severe" name="symptom2"/> <label>Extremely severe</label>
+                    </span>
+                    </div>
+                   
+                    <br />
+                    <div> 
+                    <span>3. Do you ever hear voices of other people, like whispering or talking? If so, please select a severity from 1-5.
+                        <br />
+                        <input type="radio" id="q1n" value="Not Severe" name="symptom3" /> <label>Not severe</label>
+                        <input type="radio" id="q1a" value="Slightly severe" name="symptom3"/> <label>Slightly severe</label>
+                        <input type="radio" id="q1m" value="Moderately" name="symptom3"/> <label>Moderately severe</label>
+                        <input type="radio" id="q1s" value="Severe" name="symptom3"/> <label>Severe</label>
+                        <input type="radio" id="q1v" value="Extremely severe" name="symptom3"/> <label>Extremely severe</label>
+                    </span>
+
+                        <demoq>
+                            <label for="name">3a. How often do these voice experiences occur?</label>
+                            <input id="name" type="text" value="" />
+                        </demoq>
+                    </div>
+
+                    <br />
+                    <div>
+                    <span>4. Have you had any strange tastes, smells, or visions lately? If so, how often do they occur?
+                        <br />
+                        <input type="radio" id="q1n" value="Never" name="symptom4" /> <label>Never</label>
+                        <input type="radio" id="q1e" value="Every once and a while" name="symptom4"/> <label>Every once and a while</label>
+                        <input type="radio" id="q1s" value="Sometimes" name="symptom4"/> <label>Sometimes</label>
+                        <input type="radio" id="q1o" value="Often" name="symptom4"/> <label>Often</label>
+                        <input type="radio" id="q1ev" value="Everyday" name="symptom4"/> <label>Everyday                                         </label>
+                    </span>
+                    </div>
+
+                    <br />
+                    <div>
+                    <span>5. Have you noticed a disturbance in your everyday life? If so, please select a severity from 1-5.
+                        <br />
+                        <input type="radio" id="q1n" value="Not Severe" name="symptom5" /> <label>Not severe</label>
+                        <input type="radio" id="q1a" value="Slightly severe" name="symptom5"/> <label>Slightly severe</label>
+                        <input type="radio" id="q1m" value="Moderately Severe" name="symptom5"/> <label>Moderately severe</label>
+                        <input type="radio" id="q1s" value="Severe" name="symptom5"/> <label>Severe</label>
+                        <input type="radio" id="q1v" value="Extremely severe" name="symptom5"/> <label>Extremely severe</label>
+                    </span>
+                    <demoq> 
+                        <label for="name">5a. When do you notice it most?</label>
+                        <input id="name" type="text" value="" />
+                    </demoq>
+                    </div>
+                </mediq>
+            </fieldset>
+        </medical>
+
+        <footer>
+            <fieldset><legend>Release Form</legend>
+                <div>
+                <footq>
+                    <label for="signature">Patient's Signature: </label><input id="signature" type="text" value=""/>
+                </footq>
+                </div>
+
+                <div>
+                <footq>
+                    <label for="date">Date: </label><input id="date" type="text" value=""/>
+                </footq>
+                </div>
+               
+                <div>
+                <footq>
+                    <label for="doctor">Receiving Doctor: </label><input id="doctor" type="text" value=""/>
+                </footq>
+                </div>      
+            </fieldset>
+        </footer>
+            <div id="submit">
+            <input id="submit" type="submit" class="blockcenter"/>
+            </div>
+    </form>
+
+        <script type="text/javascript">
+        document.getElementById("Form").addEventListener("submit", function(){
+          alert("Your form has been submitted");
+        });
+        </script>
+    </body>
+</html>
